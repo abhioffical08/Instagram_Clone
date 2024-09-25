@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+#FP P{
+    align-items: center;
+    font-size: 13px;
+    color: #04394e;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-div form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.form-div form .instaLogo {
+    width: 200px;
+    margin: 20px 0;
+}
+
+form .message {
+    text-align: center;
+    color: #e74c3c;
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+.form-div form .input {
+    width: 95%;
+    padding: .6rem;
+    border-radius: 8px;
+    font-weight: 500;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;
+}
+
+.login-btn {
+    width: 97%;
+    padding: .4rem;
+    font-weight: 700;
+    background-color: #0096f6;
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: white;
+}
+.login-btn:hover{
+    background-color: #016cb3;
+}
+
+#or {
+    margin: 20px 0;
+}
+
+#or:before,
+#or:after {
+    content: '------------------------';
+    color: rgba(128, 128, 128, 0.7);
+    margin: 0 10px;
+}
+
+.fb-login {
+    font-weight: 700;
+    font-size: 95%;
+    color:#385185;    ;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.sign-link {
+    text-align: center;
+    color: #0093cd;
+    font-weight: 800;
+    padding-left: 5px;
+}
+
+.sign-up {
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 20px;
+    margin: 10px;
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.store {
+    display: flex;
+    align-items: center;
+}
+
+#play {
+    width: 190px;
+}
+
+#microsoft {
+    width: 135px;
+    border-radius: 8px;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .password-container .input {
+    width: 100%;
+    padding-right: 40px; /* Make room for the icon */
+  }
+  
+  .password-container i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #8e8e8e;
+  }
+  

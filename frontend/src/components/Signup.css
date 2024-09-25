@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+main #Signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.form-div-Signup {
+    display: flex;
+    flex-direction: column;
+}
+
+form .error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1px;
+}
+.notes{
+    margin-top: 15px;
+}
+.notes p{
+    line-height: 25px;
+    font-size: 12px;
+    color: #737373;
+    align-items: center;
+    justify-content: end;
+    padding: 1px;
+}
+
+#p-1{
+    margin-bottom: 15px;
+}
+.notes span{
+    color: #072a41;
+    font-weight: 500;
+}
+
+.form-div-Signup form {
+    display: flex;
+    /* width: 40%; */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.form-div-Signup form .instaLogo {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.form-div-Signup form .input {
+    width: 95%;
+    padding: .6rem;
+    border-radius: 8px;
+    font-weight: 500;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;
+}
+
+.Signup-btn {
+    width: 97%;
+    padding: .4rem;
+    font-weight: 700;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: white;
+}
+.Signup-btn:hover{
+    background-color: #016cb3;
+}
+
+#or {
+    margin: 20px 0;
+}
+
+#or:before,
+#or:after {
+    content: '------------------------';
+    color: rgba(128, 128, 128, 0.7);
+    margin: 0 10px;
+}
+
+.fb-login-r {
+    font-weight: 700;
+    font-size: 95%;
+    background-color: #0095f6;
+    padding: 10px;
+    border-radius: 8px;
+    width: 90%;
+    color:#ffffff;    ;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.fb-login-r:hover{
+    background-color: #016cb3;
+}
+
+.Log-in {
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 20px;
+    margin: 10px;
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.store {
+    display: flex;
+    align-items: center;
+}
+
+#play {
+    width: 190px;
+}
+
+#microsoft {
+    width: 135px;
+    border-radius: 8px;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .password-container .input {
+    width: 100%;
+    padding-right: 40px; /* Make room for the icon */
+  }
+  
+  .password-container i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #8e8e8e;
+  }
+  
+  .sign-link{
+    text-align: center;
+    color:#0093cd;
+    font-weight:800;
+  }
+
+  .info-div{
+    margin-bottom: 5px;
+  }
+
+  .info{
+    font-weight: 600px;
+    line-height: 20px;
+    font-size: 17px;
+    color: #737373;
+    align-items: center;
+    justify-content: end;
+  }
